@@ -1,0 +1,10 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# data files
+outputs/
+bleurt/
+figures/
+translations/
+out/

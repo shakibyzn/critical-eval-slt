@@ -1,0 +1,23 @@
+Score the following translation from German Sign Language to German with respect to the human reference, on a continuous scale from 0 to 100, where 0 means no meaning preserved and 100 means perfect meaning and grammar.
+
+Scoring guidelines:
+
+0–10: Incorrect translation (no relation to the source meaning).
+
+11–29: Contains a few correct keywords, but the overall meaning differs significantly.
+
+30–50: Major mistakes that distort meaning.
+
+51–69: Understandable and conveys the main meaning but includes noticeable grammatical or lexical errors.
+
+70–90: Closely preserves the semantics of the source sentence, with only minor issues.
+
+91–100: Perfect translation—fully accurate, fluent, and natural.
+
+Human reference: 
+{{Reference}}
+
+Model translation: 
+{{Translation}}
+
+..... Score: {{score}}

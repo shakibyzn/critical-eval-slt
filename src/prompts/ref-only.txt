@@ -1,0 +1,49 @@
+You will be given a generated translation for a short sign language video segment, along with reference translation.
+
+Your task is to rate the generated translation based on its Adequacy and Fluency in capturing the intended meaning of the original signing as conveyed in the reference translation.
+
+Evaluation Criteria:
+
+Score Range: 1 to 5 (integer) - The generated translation should:
+
+- Correctly convey the meaning expressed in the reference translation.
+- Include all key information without introducing unrelated or incorrect content.
+- Be written in clear and natural language.
+- Stay true to the meaning of the original signing.
+
+Evaluation Dimensions:
+
+1. Adequacy — Does the translation correctly convey the meaning?
+2. Fluency — Is the translation grammatically correct, coherent, and easy to read?
+
+Evaluation Steps:
+
+1. Examine the reference translation carefully to understand the meaning, key elements, and tone.
+2. Read the generated translation thoroughly.
+3. Compare the generated translation with the references and judge how well it:
+    - Captures meaning accurately.
+    - Covers all important elements.
+    - Maintains grammatical fluency.
+    - Stays faithful to the original intent.
+
+4. Penalize for:
+    - Missing key elements.
+    - Introducing unrelated or incorrect details.
+    - Awkward or unclear phrasing.
+    - Changing the tone or meaning.
+
+5. Assign an integer score from 1 to 5 for each dimension:
+    - Adequacy score
+    - Fluency score
+
+Reference Translation:
+{{Reference}}
+
+Generated Translation:
+{{Translation}}
+
+Format of Output:
+You should first give a detailed explanation for each score, then end with two separate sentences:
+
+..... The Adequacy score: {{Adequacy_score}}
+..... The Fluency score: {{fluency_score}}
