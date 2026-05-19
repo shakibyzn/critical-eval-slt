@@ -50,12 +50,18 @@ python evals/eval_hallucination_severity.py -i translations/sem-slt/
 If you find our work useful for your research, please cite:
 
 ```
-@article{yazdani2025criticalstudyautomaticevaluation,
-      title={A Critical Study of Automatic Evaluation in Sign Language Translation}, 
-      author={Shakib Yazdani and Yasser Hamidullah and Cristina España-Bonet and Eleftherios Avramidis and Josef van Genabith},
-      year={2025},
-      eprint={2510.25434},
-      url={https://arxiv.org/abs/2510.25434}, 
+@inproceedings{yazdani-etal-2026-critical,
+  title = {A Critical Study of Automatic Evaluation in Sign Language Translation},
+  author = {Yazdani, Shakib and HAMIDULLAH, Yasser and España-Bonet, Cristina and Avramidis, Eleftherios and Genabith, Josef van},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  month = {May},
+  year = {2026},
+  pages = {9535--9548},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
+  doi = {10.63317/4n2sooe4fb2i},
+  abstract = {Automatic evaluation metrics are crucial for advancing sign language translation (SLT). Current SLT evaluation metrics, such as BLEU and ROUGE, are only text-based, and it remains unclear to what extent text-based metrics can reliably capture the quality of SLT outputs. To address this gap, we investigate the limitations of text-based SLT evaluation metrics by analyzing six metrics, including BLEU, chrF, and ROUGE, as well as BLEURT on the one hand, and large language model (LLM)-based evaluators such as G-Eval and GEMBA zero-shot direct assessment on the other hand. Specifically, we assess the consistency and robustness of these metrics under three controlled conditions: paraphrasing, hallucinations in model outputs, and variations in sentence length. Our analysis highlights the limitations of lexical overlap metrics and demonstrates that while LLM-based evaluators better capture semantic equivalence often missed by conventional metrics, they can also exhibit bias toward LLM-paraphrased translations. Moreover, although all metrics are able to detect hallucinations, BLEU tends to be overly sensitive, whereas BLEURT and LLM-based evaluators are comparatively lenient toward subtle cases. This motivates the need for multimodal evaluation frameworks that extend beyond text-based metrics to enable a more holistic assessment of SLT outputs.}
 }
 ```
 
